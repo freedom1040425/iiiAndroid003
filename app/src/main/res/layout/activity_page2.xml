@@ -6,21 +6,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity"
-    >
-
-
+    tools:context=".Page2Activity">
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Main Page"
-        android:textSize="24sp"/>
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Go to Page2"
-        android:onClick="gotoPage2"
-        />
+        android:layout_height="match_parent"
+        android:text="i am Page2"/>
 
 
 </LinearLayout>

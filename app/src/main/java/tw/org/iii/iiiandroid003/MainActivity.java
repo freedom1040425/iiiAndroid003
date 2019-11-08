@@ -2,8 +2,10 @@ package tw.org.iii.iiiandroid003;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -48,4 +50,12 @@ public class MainActivity extends AppCompatActivity {
         super.onDestroy();
         Log.v("brad","onDestroy");
     }
+
+    public void gotoPage2(View view) {
+        Log.v("brad","Click");
+
+        Intent intent = new Intent(this,Page2Activity.class);
+        startActivity(intent);
+    }
+    //public void gotoPage2V2(View view){} 先設在XML設置
 }
